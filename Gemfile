@@ -5,7 +5,7 @@ source "https://rubygems.org"
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}.git" }
 
 gem "jbuilder"
-gem "rails"
+gem "rails", github: "rails/rails"
 gem "rails_autolink"
 gem "sass-rails"
 gem "turbolinks"
@@ -24,7 +24,7 @@ gem "rack-attack"
 
 gem "http_accept_language"
 gem "rails-i18n"
-gem "twemoji", github: "jollygoodcode/twemoji"
+gem "twemoji"
 
 # OAuth Provider
 gem "doorkeeper"
@@ -75,7 +75,7 @@ gem "omniauth-github"
 gem "cancancan"
 
 # Redis
-gem "redis", "~>4.1.0"
+gem "redis"
 gem "redis-namespace", github: "resque/redis-namespace"
 gem "redis-objects"
 
