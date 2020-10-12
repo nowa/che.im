@@ -101,7 +101,7 @@ class Setting < RailsSettings::Base
   field :github_secret, default: ENV["github_secret"], readonly: true
 
   # = Other Site Configs
-  field :admin_emails, type: :array, default: (ENV["admin_emails"] || "admin@admin.com"), separator: /[\s,]+/
+  field :admin_emails, type: :array, default: (ENV["admin_emails"] || "nowazhu@gmail.com"), separator: /[\s,]+/
 
   field :newbie_limit_time, type: :integer, default: 0
   field :topic_create_limit_interval, type: :integer, default: 0
